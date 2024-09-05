@@ -6,12 +6,8 @@ import $ from 'jquery';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent{
   title = 'ECommerceClient';
 
-  ngOnInit() {
-    $(document).ready(() => {
-      alert("jQuery is working!");
-    });
-  }
+
 }
